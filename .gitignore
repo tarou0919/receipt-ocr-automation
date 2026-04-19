@@ -1,0 +1,43 @@
+# 認証情報(絶対に公開しない)
+credentials/
+*.json
+!package.json
+.env
+.env.local
+
+# レシート画像(個人情報)
+receipts/*.jpg
+receipts/*.jpeg
+receipts/*.png
+receipts/*.JPG
+receipts/*.JPEG
+receipts/*.PNG
+!receipts/.gitkeep
+
+# レポート出力
+output/*.csv
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
